@@ -1,0 +1,19 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* --------------------------- navbar ------------------------------------------------------ */
+.nav-bg-light{
+    padding: 13px;
+    box-shadow: 1px 8px 17px -12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link {
+    color:black;
+    font-size:17px;
+    font-weight:bold;
+    margin:0px 15px;
+}
