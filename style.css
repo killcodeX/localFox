@@ -1,45 +1,83 @@
 @font-face {
-    font-family: carlito;
-    src: url(./assests/fonts/Carlito-Regular.ttf);
-  }
-
-body{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: carlito;
+  font-family: carlito;
+  src: url(./assests/fonts/Carlito-Regular.ttf);
 }
 
+:root {
+  --grass: #11bf8b;
+  --localFox: #ff4345;
+  --brand: #8427f3;
+  --sky: #7883ff;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: carlito;
+}
 
 /* --------------------------- navbar ------------------------------------------------------ */
-.nav-bg-light{
-    padding: 13px;
-    box-shadow: 1px 8px 17px -12px rgba(0, 0, 0, 0.15);
-    background-color: white;
-    /* margin-bottom: 100px; */
+.nav-bg-light {
+  padding: 13px;
+  box-shadow: 1px 8px 17px -12px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  /* margin-bottom: 100px; */
 }
 
 .nav-link {
-    color:black !important;
-    font-size:17px;
-    font-weight:bold;
-    margin:0px 15px;
+  color: black !important;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0px 15px;
 }
 
 /* --------------------------- section 1 ------------------------------------------------------ */
 
-.bd-masthead{
-    min-height:100vh;
-    padding-top: 100px;
-    /* background: linear-gradient(165deg, #f7f5fb 50%, #fff 50%); */
+.bd-masthead {
+  min-height: 90vh;
+  padding-top: 100px;
+  /* background: linear-gradient(165deg, #f7f5fb 50%, #fff 50%); */
 }
 
-.banner1{
-    width: 90%;
+.banner1 {
+  width: 90%;
 }
 
-.landing-btn{
-    background: #FF4345;
-    color: white;
-    padding: 10px 35px;
+.landing-btn {
+  background: var(--localFox);
+  color: white;
+  padding: 10px 35px;
+}
+
+/* --------------------------- section 2 ------------------------------------------------------ */
+
+.section-head {
+  display: block;
+  
+}
+
+.section-head-para {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.service-card {
+  padding: 25px 15px;
+  transition: transform 0.5s ease-out;
+}
+
+.service-card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.125) !important;
+  transform: translateY(-15px);
+  cursor: pointer;
+}
+
+.service-icon {
+  font-size: 25px;
+  color: var(--sky);
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
