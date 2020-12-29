@@ -48,6 +48,7 @@ body {
   background: var(--localFox);
   color: white;
   padding: 10px 35px;
+  justify-content: end;
 }
 
 /* --------------------------- section 2 ------------------------------------------------------ */
@@ -80,4 +81,15 @@ body {
   display: block;
   margin: 0 auto;
   margin-bottom: 10px;
+}
+
+
+.slick-prev, .slick-next {
+  background: var(--localFox);
+  color: white !important;
+  border-radius: 50%;
+}
+
+.slick-prev:hover, .slick-next:hover {
+  background: blue;
 }

@@ -15,6 +15,19 @@
       defer
       src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
     ></script>
+    <!-- slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+    />
     <!-- internal css -->
     <link rel="stylesheet" href="./style.css" />
     <!-- favicon -->
@@ -158,6 +171,79 @@
       </section>
 
       <!-------------------------------------------------- end ---------------------------------------------------->
+
+      <!-------------------------------------------------- Section 2 ----------------------------------------------->
+      <section class="section pt-5 pb-5 bg-light" id="test">
+        <div class="container">
+          <h2 class="section-head pb-4 text-center">Testimonials</h2>
+          <p class="text-muted lead mb-5 text-center section-head-para">
+            Quickly design and customize responsive mobile-first sites with
+            LocalFox, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div class="row slider pt-3 mb-5 pb-md-4 align-items-center">
+              <div class="col-sm-12 col-md-3">
+                <div class="card service-card">
+                  <i class="service-icon fas fa-laptop-code"></i>
+                  <h5 class="text-center">Lorem</h5>
+                  <p class="text-muted text-center">
+                    Quickly design and customize responsive mobile-first sites
+                    with LocalFox, the world’s most popular front-end open source
+                    toolkit,
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3">
+                <div class="card service-card">
+                  <i class="service-icon fas fa-laptop-code"></i>
+                  <h5 class="text-center">Lorem</h5>
+                  <p class="text-muted text-center">
+                    Quickly design and customize responsive mobile-first sites
+                    with LocalFox, the world’s most popular front-end open source
+                    toolkit,
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3">
+                <div class="card service-card">
+                  <i class="service-icon fas fa-laptop-code"></i>
+                  <h5 class="text-center">Lorem</h5>
+                  <p class="text-muted text-center">
+                    Quickly design and customize responsive mobile-first sites
+                    with LocalFox, the world’s most popular front-end open source
+                    toolkit,
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3">
+                <div class="card service-card">
+                  <i class="service-icon fas fa-laptop-code"></i>
+                  <h5 class="text-center">Lorem</h5>
+                  <p class="text-muted text-center">
+                    Quickly design and customize responsive mobile-first sites
+                    with LocalFox, the world’s most popular front-end open source
+                    toolkit,
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3">
+                <div class="card service-card">
+                  <i class="service-icon fas fa-laptop-code"></i>
+                  <h5 class="text-center">Lorem</h5>
+                  <p class="text-muted text-center">
+                    Quickly design and customize responsive mobile-first sites
+                    with LocalFox, the world’s most popular front-end open source
+                    toolkit,
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------------------------------- end ---------------------------------------------------->
     </main>
 
     <!-- for bootstrap -->
@@ -176,6 +262,54 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <!-- slider -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      $(".slider").slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
     <script src="./app.js"></script>
   </body>
 </html>
