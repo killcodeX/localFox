@@ -1,7 +1,13 @@
+@font-face {
+    font-family: carlito;
+    src: url(./assests/fonts/Carlito-Regular.ttf);
+  }
+
 body{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: carlito;
 }
 
 
@@ -9,11 +15,24 @@ body{
 .nav-bg-light{
     padding: 13px;
     box-shadow: 1px 8px 17px -12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 100px;
 }
 
 .nav-link {
-    color:black;
+    color:black !important;
     font-size:17px;
     font-weight:bold;
     margin:0px 15px;
+}
+
+/* --------------------------- section 1 ------------------------------------------------------ */
+
+.banner1{
+    width: 90%;
+}
+
+.landing-btn{
+    background: #FF4345;
+    color: white;
+    padding: 10px 35px;
 }

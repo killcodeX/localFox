@@ -10,17 +10,25 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!-- for font -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+    ></script>
+    <!-- internal css -->
     <link rel="stylesheet" href="./style.css" />
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="./assests/logo/favicon.jpg"/>
+    <link rel="icon" type="image/png" href="./assests/logo/favicon.jpg" />
     <title>LocalFox</title>
   </head>
   <body>
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light nav-bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light nav-bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src='./assests/logo/logo.png' alt='localfox'></a>
+        <a class="navbar-brand" href="/"
+          ><img src="./assests/logo/logo.png" alt="localfox"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,7 +44,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="/"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
@@ -44,14 +52,53 @@
               <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link">
+                <i class="text-success fab fa-whatsapp"></i> +91 (222) 3333
+              </p>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <!------------------------------------ ends  ------------------------------------------------------------------->
+    <main>
+      <!-------------------------------------------------- Section 1 ----------------------------------------------->
+      <section class="section bd-masthead mb-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h1 class="mb-3">Build fast, responsive sites with LocalFox</h1>
+              <p class="text-muted lead mb-3">
+                Quickly design and customize responsive mobile-first sites with
+                LocalFox, the world’s most popular front-end open source
+                toolkit, featuring Sass variables and mixins, responsive grid
+                system, extensive prebuilt components, and powerful JavaScript
+                plugins.
+              </p>
+              <div class="d-flex flex-column flex-md-row">
+                <a
+                  href="/"
+                  class="btn btn-lg landing-btn"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 text-center">
+              <img
+                class="banner1"
+                src="./assests/images/banner1.svg"
+                alt="banner"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------------------------ ends  ------------------------------------------------------------------->
+    </main>
 
     <!-- for bootstrap -->
     <script
