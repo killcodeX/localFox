@@ -55,7 +55,6 @@ body {
 
 .section-head {
   display: block;
-  
 }
 
 .section-head-para {
@@ -83,13 +82,32 @@ body {
   margin-bottom: 10px;
 }
 
+/* --------------------------- section 3 ------------------------------------------------------ */
 
-.slick-prev, .slick-next {
+.slick-prev,
+.slick-next {
   background: var(--localFox);
   color: white !important;
   border-radius: 50%;
 }
 
-.slick-prev:hover, .slick-next:hover {
+.slick-prev:hover,
+.slick-next:hover {
   background: blue;
+}
+
+.circular--portrait {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+
+.test-image {
+  width: 100%;
+  height: auto;
 }
