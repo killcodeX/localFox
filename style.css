@@ -8,6 +8,7 @@
   --localFox: #ff4345;
   --brand: #8427f3;
   --sky: #7883ff;
+  --footer: #272a33;
 }
 
 body {
@@ -110,4 +111,32 @@ body {
 .test-image {
   width: 100%;
   height: auto;
+}
+
+/* --------------------------- footer ------------------------------------------------------ */
+
+.footer-bg {
+  padding: 50px 0px;
+  background-color: var(--footer);
+}
+
+.text-custom{
+  color: #ee6352 !important;
+}
+
+.footer-alt {
+  padding: 15px 0;
+  background-color: #2e313a;
+}
+
+.social-icon {
+  border: 2px solid #40434e;
+  border-radius: 50%;
+  color: #6b707d !important;
+  width: 36px;
+  height: 36px;
+  display: block;
+  font-size: 15px;
+  line-height: 32px;
+  text-align: center;
 }
