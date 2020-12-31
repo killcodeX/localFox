@@ -113,6 +113,39 @@ body {
   height: auto;
 }
 
+/* --------------------------- contact us ------------------------------------------------------ */
+
+.invalid-feedback::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -2.5px;
+    margin-left: 50%;
+    width: 10px;
+    height: 5px;
+    border-bottom: solid 5px #145388;
+    border-left: solid 5px transparent;
+    border-right: solid 5px transparent;
+}
+
+.invalid-feedback::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -2.5px;
+  margin-left: 50%;
+  width: 10px;
+  height: 5px;
+  border-bottom: solid 5px white;
+  border-left: solid 5px transparent;
+  border-right: solid 5px transparent;
+}
+
+
+.submitBnt{
+  background-color: var(--sky);
+  color: white;
+}
 /* --------------------------- footer ------------------------------------------------------ */
 
 .footer-bg {
