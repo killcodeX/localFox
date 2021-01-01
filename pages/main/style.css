@@ -1,6 +1,6 @@
 @font-face {
   font-family: carlito;
-  src: url(./assests/fonts/Carlito-Regular.ttf);
+  src: url(../../assests/fonts/Carlito-Regular.ttf);
 }
 
 :root {
@@ -33,6 +33,10 @@ body {
   margin: 0px 15px;
 }
 
+.active{
+  border-bottom: 2px solid var(--localFox);
+  color: black;
+}
 /* --------------------------- section 1 ------------------------------------------------------ */
 
 .bd-masthead {

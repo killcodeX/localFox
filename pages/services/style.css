@@ -1,0 +1,39 @@
+@font-face {
+    font-family: carlito;
+    src: url(../../assests/fonts/Carlito-Regular.ttf);
+  }
+  
+  :root {
+    --grass: #11bf8b;
+    --localFox: #ff4345;
+    --brand: #8427f3;
+    --sky: #7883ff;
+    --footer: #272a33;
+  }
+  
+  body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: carlito;
+  }
+  
+  /* --------------------------- navbar ------------------------------------------------------ */
+  .nav-bg-light {
+    padding: 13px;
+    box-shadow: 1px 8px 17px -12px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    /* margin-bottom: 100px; */
+  }
+  
+  .nav-link {
+    color: black !important;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px 15px;
+  }
+
+  .active{
+    border-bottom: 2px solid var(--localFox);
+    color: black;
+  }
