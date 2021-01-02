@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 @font-face {
     font-family: carlito;
     src: url(../../assests/fonts/Carlito-Regular.ttf);
@@ -33,6 +35,11 @@
     margin: 0px 15px;
   }
 
+  .navbar-brand {
+    font-family: "Lobster", cursive;
+    font-size: 25px;
+  }
+
   .active{
     border-bottom: 2px solid var(--localFox);
     color: black;
@@ -58,6 +65,12 @@
 }
 
 /* --------------------------- footer ------------------------------------------------------ */
+
+.footer-logo {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  color: white;
+}
 
 .footer-bg {
   padding: 50px 0px;

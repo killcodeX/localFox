@@ -1,44 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 @font-face {
-    font-family: carlito;
-    src: url(../../assests/fonts/Carlito-Regular.ttf);
-  }
-  
-  :root {
-    --grass: #11bf8b;
-    --localFox: #ff4345;
-    --brand: #8427f3;
-    --sky: #7883ff;
-    --footer: #272a33;
-  }
-  
-  body {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: carlito;
-  }
-  
-  /* --------------------------- navbar ------------------------------------------------------ */
-  .nav-bg-light {
-    padding: 13px;
-    box-shadow: 1px 8px 17px -12px rgba(0, 0, 0, 0.15);
-    background-color: white;
-    /* margin-bottom: 100px; */
-  }
-  
-  .nav-link {
-    color: black !important;
-    font-size: 17px;
-    font-weight: bold;
-    margin: 0px 15px;
-  }
+  font-family: carlito;
+  src: url(../../assests/fonts/Carlito-Regular.ttf);
+}
 
-  .active{
-    border-bottom: 2px solid var(--localFox);
-    color: black;
-  }
+:root {
+  --grass: #11bf8b;
+  --localFox: #ff4345;
+  --brand: #8427f3;
+  --sky: #7883ff;
+  --footer: #272a33;
+}
 
-  /* --------------------------- section 1 ------------------------------------------------------ */
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: carlito;
+}
+
+/* --------------------------- navbar ------------------------------------------------------ */
+.nav-bg-light {
+  padding: 13px;
+  box-shadow: 1px 8px 17px -12px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  /* margin-bottom: 100px; */
+}
+
+.nav-link {
+  color: black !important;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0px 15px;
+}
+
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+}
+
+.active {
+  border-bottom: 2px solid var(--localFox);
+  color: black;
+}
+
+/* --------------------------- section 1 ------------------------------------------------------ */
 
 .bd-masthead {
   min-height: 90vh;
@@ -60,7 +67,7 @@
 /* --------------------------- contact us ------------------------------------------------------ */
 
 .invalid-feedback::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -5px;
   left: -2.5px;
@@ -73,32 +80,37 @@
 }
 
 .invalid-feedback::after {
-content: '';
-position: absolute;
-top: -4px;
-left: -2.5px;
-margin-left: 50%;
-width: 10px;
-height: 5px;
-border-bottom: solid 5px white;
-border-left: solid 5px transparent;
-border-right: solid 5px transparent;
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -2.5px;
+  margin-left: 50%;
+  width: 10px;
+  height: 5px;
+  border-bottom: solid 5px white;
+  border-left: solid 5px transparent;
+  border-right: solid 5px transparent;
 }
 
-
-.submitBnt{
-background-color: var(--sky);
-color: white;
+.submitBnt {
+  background-color: var(--sky);
+  color: white;
 }
 
 /* --------------------------- footer ------------------------------------------------------ */
+
+.footer-logo {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  color: white;
+}
 
 .footer-bg {
   padding: 50px 0px;
   background-color: var(--footer);
 }
 
-.text-custom{
+.text-custom {
   color: #ee6352 !important;
 }
 
