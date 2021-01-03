@@ -31,8 +31,8 @@ body {
 .nav-link {
   color: black !important;
   font-size: 17px;
-  font-weight: bold;
-  margin: 0px 15px;
+  /* font-weight: bold; */
+  margin: 0px 8px;
 }
 
 .navbar-brand {
@@ -154,7 +154,7 @@ body {
 
 
 .submitBnt{
-  background-color: var(--sky);
+  background-color: var(--localFox);
   color: white;
 }
 /* --------------------------- footer ------------------------------------------------------ */
